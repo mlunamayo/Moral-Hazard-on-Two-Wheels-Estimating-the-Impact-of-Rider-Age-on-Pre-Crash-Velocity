@@ -41,7 +41,7 @@ Developed entirely in **R**, this project leverages the `tidyverse` ecosystem to
 ### 1. Geospatial Distribution of Extreme Speeds
 This map plots the exact GPS coordinates of fatal crashes in the contiguous US, color-coded by travel speed hotspots.
 
-
+Geospatial Distribution of Fatal Motorcycle Accidents (2022).svg
 
 ### 2. Density Analysis: Age vs. Speed
 Standard scatterplots fail due to overplotting with 5,000+ data points. Using hexagonal binning, we isolate the highest density of crashes. The GAM trendline indicates a statistically significant downward slope: **younger riders consistently crash at higher speeds.**
