@@ -60,7 +60,6 @@ To isolate the most aggressive risk-taking behavior, the dataset was split into 
 
 ---
 
-## ![Uploading Geospatial Distribution of Fatal Motorcycle Accidents (2022).svg…]()
 Summary Statistics
 The following table summarizes the demographic and speed differences across engineered motorcycle categories. 
 
