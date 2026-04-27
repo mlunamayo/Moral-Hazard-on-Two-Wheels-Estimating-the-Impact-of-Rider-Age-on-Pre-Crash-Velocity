@@ -50,6 +50,10 @@ Standard scatterplots fail due to overplotting with 5,000+ data points. Using he
 ### 3. Risk by Motorcycle Class
 Violin plots reveal that different machines attract different risk profiles. Cruisers show a wide, normal distribution of crash speeds, whereas off-road bikes and sport classes have tighter, more aggressive speed profiles.
 
+### 4. Demographic Shift in Extreme Speed Crashes
+To isolate the most aggressive risk-taking behavior, the dataset was split into two tiers: "Normal Speed" (<80 MPH) and "Extreme Speed" (80+ MPH). While normal speed crashes show a wide age distribution, the extreme speed crashes violently shift to the left. This proves that extreme speed is almost exclusively a young rider's game, isolating the exact demographic where the "Need for Speed" overrides safety.
+
+
 ---
 
 ## ![Uploading Geospatial Distribution of Fatal Motorcycle Accidents (2022).svg…]()
