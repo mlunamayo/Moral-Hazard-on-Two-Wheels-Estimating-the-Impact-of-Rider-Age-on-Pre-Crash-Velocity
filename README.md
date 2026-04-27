@@ -41,29 +41,29 @@ Developed entirely in **R**, this project leverages the `tidyverse` ecosystem to
 ### 1. Geospatial Distribution of Extreme Speeds
 This map plots the exact GPS coordinates of fatal crashes in the contiguous US, color-coded by travel speed hotspots.
 
-<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Geospatial%20Distribution%20of%20Fatal%20Motorcycle%20Accidents%20(2022).svg" alt="Logo" width="500">
+<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Geospatial%20Distribution%20of%20Fatal%20Motorcycle%20Accidents%20(2022).svg" alt="Logo" width="1000">
 
 ### 2. Density Analysis: Age vs. Speed
 Standard scatterplots fail due to overplotting with 5,000+ data points. Using hexagonal binning, we isolate the highest density of crashes. The GAM trendline indicates a statistically significant downward slope: **younger riders consistently crash at higher speeds.**
 
-<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Density%20Analysis%3A%20Rider%20Age%20vs.%20Pre-Crash%20Speed.svg" alt="Logo" width="500">
+<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Density%20Analysis%3A%20Rider%20Age%20vs.%20Pre-Crash%20Speed.svg" alt="Logo" width="1000">
 
 ### 3. Risk by Motorcycle Class
 Violin plots reveal that different machines attract different risk profiles. Cruisers show a wide, normal distribution of crash speeds, whereas off-road bikes and sport classes have tighter, more aggressive speed profiles.
 
-<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Speed%20Distribution%20by%20Motorcycle%20Category.svg" alt="Logo" width="500">
+<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Speed%20Distribution%20by%20Motorcycle%20Category.svg" alt="Logo" width="1000">
 
 ### 4. Demographic Shift in Extreme Speed Crashes
 To isolate the most aggressive risk-taking behavior, the dataset was split into two tiers: "Normal Speed" (<80 MPH) and "Extreme Speed" (80+ MPH). While normal speed crashes show a wide age distribution, the extreme speed crashes violently shift to the left. This proves that extreme speed is almost exclusively a young rider's game, isolating the exact demographic where the "Need for Speed" overrides safety.
 
-<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Demographic_Shift_in_Extreme_Speed_Crashes.svg" alt="Logo" width="500">
+<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Demographic_Shift_in_Extreme_Speed_Crashes.svg" alt="Logo" width="1000">
 
 ---
 
 Summary Statistics
 The following table summarizes the demographic and speed differences across engineered motorcycle categories. 
 
-<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Motorcycle%20Fatality%20Demographics%20%26%20Geospatial%20Analysis.png" alt="Logo" width="500">
+<img src="https://github.com/mlunamayo/Moral-Hazard-on-Two-Wheels-Estimating-the-Impact-of-Rider-Age-on-Pre-Crash-Velocity/blob/0341d26abdcb73f16d01f1a230a90bb1527f3ac7/Graphs%20export/Motorcycle%20Fatality%20Demographics%20%26%20Geospatial%20Analysis.png" alt="Logo" width="1000">
 
 *(Note: Data is a representative sample of N = 5,102 fatal incidents from the 2022 FARS database).*
 
